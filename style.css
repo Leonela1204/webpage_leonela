@@ -1,0 +1,204 @@
+body{
+	background: white;
+	margin: 20px
+	color: blue;
+	font-size: 25px;
+	font-family: helvetica;
+}
+
+.container-cards {
+	margin: 50px;
+}
+
+h1{
+	font-family: 'Merriweather', serif;
+	margin: 0px;
+	color: #322f3d;
+	font-weight: bold;
+	font-size: 30px;
+	padding-top: 60px; 
+	text-shadow: 2px 2px 3px #59405c;
+
+}
+
+h2{
+	font-family: 'Didact Gothic', sans-serif;
+	color: #71c9ce;
+	font-weight: lighter;
+	font-size: 25px;
+}
+
+h5, h3 {
+	font-family: 'Dancing Script', cursive;
+  font-weight: bold;
+	color: #59405c;
+	text-shadow: 4px 1px 3px darkgrey;
+	font-size: 30px;
+}
+
+h5 {
+	margin-top: 20px; 
+}
+
+p {
+	margin: 0px;
+	margin-bottom: 20px;
+	font-family: cursive;
+	font-size: 20px;
+}
+
+#texto {
+	text-align: center;
+	width: fit-content;
+  height: fit-content;
+  margin-left: 20px;
+  margin-right: 20px;
+	border: 2px solid mistyrose;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px grey;
+}
+
+a{
+	margin: 20px;
+	color: #13adbd;
+}
+
+a:hover {
+	margin: 20px;
+	text-decoration: blink;
+	color: #a2dde0;
+}
+
+#banner {
+    background-image: url('https://images.unsplash.com/photo-1542435503-956c469947f6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1334&q=80');
+    background-size: cover;
+    background-position: top;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center; 
+    color: #59405c;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid mistyrose;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px grey;	
+}
+
+.MENU {
+	margin: 20px;
+}
+
+.avatar {
+	width: 70px;
+	margin-right: 20px;
+  border-radius: 50%;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+  border: white 1px solid;
+}
+
+.btn-ghost {
+  color: #4A4A4A;
+  border: 1px solid #4A4A4A;
+  padding: 8px 24px;
+  border-radius: 50px;
+  font-weight: lighter;
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
+}
+
+.btn-ghost:hover {
+  opacity: 1;
+}
+
+.tarjetas {
+	display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+  margin: 20px;
+  height: 200px;
+}
+
+.card-category {
+	background-position: center;
+  background-size: cover;
+	color: white;
+	border-radius: 5px;
+	box-shadow: 0 0 10px grey;
+	text-align: center;
+	padding-top: 80px;
+}
+
+#footer {
+	color: red;
+	background-image: url('https://images.unsplash.com/photo-1542435503-956c469947f6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1334&q=80');
+	background-size: cover;
+	background-position: bottom;
+	font-family: helvetica;
+	font-style: italic;
+	text-align: center;
+  margin: 20px;
+  margin-top: 60px;
+  padding: 10px;
+  border: 2px solid mistyrose;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px grey;
+}
+
+#footer a {
+	text-decoration: blink;
+}
+
+/*Formulario*/
+
+#contact_form {
+	background-color: #fbc4ab;
+	font-family: cursive;
+	font-size: 20px;
+}
+
+#submit_button {
+	background-color: #1dd3bd;
+}
+
+.formulario {
+	border-style: solid;
+	margin: auto;
+	margin-top: 50px;
+	width: fit-content;
+  height: fit-content;
+  border-radius: 10px;
+  border-width: 1px;
+  box-shadow: 0 0 10px grey;
+  background-color: #f7e1d7;
+}
+
+/*Gracias*/
+
+.thanks-style {
+	font-family: 'Dancing Script', cursive;
+	font-size: 50px;
+	color: white;
+	text-shadow: 0 0 10px mistyrose;
+	border-style: solid;
+	margin: 20px;
+	margin-top: 20px;
+	margin-bottom: 50px;
+	width: auto;
+  height: 400px;
+  text-align: center;
+  border-radius: 10px;
+  border-width: 1px;
+  box-shadow: 0 0 10px grey;
+  background-color: #f3e1e1;
+  padding-top: 50px;
+}
+
+h4{
+	font-family: 'Dancing Script';
+	font-size: 40px;
+	color: white;
+	text-shadow: 0 0 5px grey;
+	margin-bottom: 50px;
+	margin-top: 20px;
+}
